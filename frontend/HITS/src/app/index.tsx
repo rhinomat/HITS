@@ -26,7 +26,7 @@ export interface Item {
 export type ItemCreatePayload = Omit<Item, "id">;
 
 // Replace with your backend machine's LAN IP address
-const API_URL = "http://192.168.1.100:8000/items";
+const API_URL = process.env.EXPO_PUBLIC_API_URL || "http://10.0.2.2:8000/items";
 
 export default function Index(): React.JSX.Element {
   // Theme State
