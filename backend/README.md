@@ -1,6 +1,6 @@
 # HITS Backend
 ## How to Setup
-Run `uv sync` to initialize and download dependencies using `uv`\
+Run `uv sync` to initialize and download dependencies using `uv`
 ## How to Run
 in the main folder run the command:\
 `uv run fastapi dev main.py --host 0.0.0.0`
